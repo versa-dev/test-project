@@ -1,38 +1,68 @@
 .App {
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.items-title {
+  background-color: brown;
+  color: aliceblue;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  padding: 10px;
+  font-weight: 800;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.order-item {
+  background-color: royalblue;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  text-align: left;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+
+.picked {
+  font-size: 30px;
+  color: aquamarine;
+  width: fit-content;
+  font-weight: 700;
+}
+
+.order-id {
+  margin-left: 10%;
+  margin-top: 15px;
+  font-size: 15px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.paid {
+  background-color: gold;
+  color: white;
+  padding: 2px 15px;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.order-info {
+  color: white;
+}
+
+.total-amount {
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+}
+
+.detail {
+  text-align: center;
+  padding: 20px;
+}
+
+.paid-detail {
+  border: 1px solid black;
+  margin: 10px;
+  font-weight: 700;
+  font-size: 20px;
 }
